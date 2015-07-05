@@ -1,0 +1,12 @@
+# Example file to display the required layout for DNS comparisons
+
+google.com A,AAAA
+cloudflare.com A
+example.org MX
+example.com A,MX,CNAME,TXT
+# You can put comments like this as well
+google.com CNAME
+
+#google.com
+
+google2.com A,MX
